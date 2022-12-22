@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIITU | Student Entry</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="entry.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <nav>
+        <div id="logo"><a href="entry.html"><span >IIITU</span></a></div>
+        <input type="checkbox" name="" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <!-- <a href="stu.html"><li>Home</li></a> -->
+            <!-- <a href="attendance.html"><li>Attendance</li></a> -->
+            <a href="entry.html"><li>Entry</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            <div class="dropdown">
+                <button class="dropbtn"><li><img src="img/profile.png" alt=""></li>
+            </button>
+                <div class="dropdown-content">
+                  <!-- <a href="#">Profile</a> -->
+                  <a href="reset.html">Reset <br> Password</a>
+                  <a href="#" id="logout">Logout</a>
+                </div>
+              </div>
+        </ul>
+     </nav>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+    <secttion id="entry">
+        <div class="img">
+            <img src="img/stu.gif" alt="">
+        </div>
+        <div class="data">
+            
+            <br>
+            <p class="name"><strong>Name     :</strong> </p>
+            <br>
+            <br>
+            <p class="roll"><strong>Roll no. :</strong> </p>
+            <br>
+            <br>
+            <p class="phone"><strong>Phone no. :</strong> </p>
+            <br>
+            <br>
+            <p class="Status"><strong>Status   :</strong> </p>
+
+            <table></table>
+        </div>
+    </secttion>
+     <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+    <script src="firebase.js"></script>
+    <script src="log.js"></script>
+    <script src="entry.js"></script>
+</body>
+</html>

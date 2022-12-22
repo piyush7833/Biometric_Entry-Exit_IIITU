@@ -1,0 +1,22 @@
+body{
+    background-color: blanchedalmond;
+    /* overflow-x: hidden; */
+}
+#entry{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#entry .img img{
+    height: 80vh;
+    width: 50vw;
+    align-items: center;
+}
+#entry .data{
+    font-size: 1.8rem;
+    width: 40vw;
+    height: 60vh;
+    align-content: center;
+}

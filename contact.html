@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIITU | Contact</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="utility.css">
+    
+</head>
+<body>
+    <nav>
+        <div id="logo"><a href="entry.html"><span >IIITU</span></a></div>
+        <input type="checkbox" name="" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <!-- <a href="stu.html"><li>Home</li></a> -->
+            <!-- <a href="attendance.html"><li>Attendance</li></a> -->
+            <a href="entry.html"><li>Entry</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            <div class="dropdown">
+                <button class="dropbtn"><li><img src="img/profile.png" alt=""></li>
+            </button>
+                <div class="dropdown-content">
+                  <!-- <a href="#">Profile</a> -->
+                  <a href="reset.html">Reset <br> Password</a>
+                  <a href="#" id="logout">Logout</a>
+                </div>
+              </div>
+        </ul>
+     </nav>
+     <script type="text/javascript">var submitted=false;</script>
+     <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='thank.html';}"></iframe>
+     <secton id="contact">
+        <div class="container">
+
+            <div class="main">
+                <div class="contactform">
+
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdDcgpFwhkYg5jalsaUuT43pMB9LhmBh0rMZ1oWPkTRLJoKxg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
+                        <h1 class="center">Contact Us If You Face Any Issue</h1>
+                        <div class="mb-3">
+                            <label for="clientName" class="form-label"> <i class="fa fa-user"></i>Name*</label>
+                            <input type="text" class="form-control" id="name;" name="entry.862092102"
+                                aria-describedby="emailHelp" required placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientEmail" class="form-label"><i class="fa fa-envelope"></i> Email
+                                address*</label>
+                            <input type="email" class="form-control" id="email;" name="entry.991885092"
+                                aria-describedby="emailHelp" required placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientPhone" class="form-label"><i class="fa fa-mobile"></i> Phone
+                                Number*</label>
+                            <input type="number" class="form-control" id="clientPhone" placeholder="Enter your number"
+                                name="entry.1288951490" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientQuerry" class="form-label"><i
+                                    class="fa-solid fa-comments-dollar"></i>Querry*</label>
+                            <input type="text" class="form-control" id="enquiry;" aria-describedby="emailHelp" required
+                                name="entry.1990553410" placeholder="Enter your querry">
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Submit</button>
+                        </div>
+     <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+     <script src="firebase.js"></script>
+     <script src="log.js"></script>
+</body>
+</html>

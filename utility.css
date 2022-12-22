@@ -1,0 +1,38 @@
+.btn{
+    margin-top: 34px;
+}
+.btn button{
+    background-color: rgb(114, 175, 231);
+    /* font-weight: bold; */
+     font-size: 20px;
+     padding: 12px;
+     border-radius: 31px;
+     margin-top: 14px;
+     padding-left: 30px;
+     padding-right: 30px;
+     cursor: pointer;
+}
+.btn button a{
+    text-decoration: none;
+}
+.btn button:hover{
+    background-color:rgb(242, 244, 247);
+    color: crimson;
+}
+.btn button a:hover{
+    background-color: rgb(249, 251, 255);
+    color: crimson;
+    text-decoration: none;
+}
+.btn button:active{
+    background-color: darkgrey;
+}
+.center{
+text-align: center;
+}
+.error{
+    font-size: 1.1em;
+    color: aliceblue;
+    background-color: red;
+    /* border-radius: 1em; */
+}

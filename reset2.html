@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIITU-Login/Signup</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <nav>
+        <div id="logo"><a href="entry2.html"><span >IIITU</span></a></div>
+        <input type="checkbox" name="" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <a href="entry2.html"><li>Entry</li></a>
+            <a href="contact2.html"><li>Contact</li></a>
+            <div class="dropdown">
+                <button class="dropbtn"><li><img src="img/profile.png" alt=""></li>
+            </button>
+                <div class="dropdown-content">
+                  <!-- <a href="#">Profile</a> -->
+                  <a href="reset.html" id="reset">Reset <br> Password</a>
+                  <a href="#" id="logout">Logout</a>
+                </div>
+              </div>
+        </ul>
+     </nav>
+<div class="whole">
+</form>
+    <div class="in" id="resetform">
+        <div class="logo" ><img src="img/1035346684_2020-08-07.gif" alt="">
+        </div>
+        <form action="" id="resetform">
+        <div class="data">
+        <label for="Password">
+            <input type="password" name="" id="rpwd" placeholder="Current Password*" required>
+        </label>
+        <label for="Password">
+            <input type="password" name="" id="rnpwd" placeholder="New Password*" required>
+        </label>
+        <label for="Password">
+            <input type="password" name="" id="rcpwd" placeholder="Confirm Password*" required>
+        </label>
+        <button type="submit" class="btn">Sign In</button>
+        <p class="error"></p>
+</div>
+    </div>
+</form>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+    <script src="firebase.js"></script>
+    <script src="index.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>

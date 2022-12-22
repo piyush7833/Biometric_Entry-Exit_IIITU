@@ -1,0 +1,74 @@
+body{
+    color:rgb(16, 15, 15);
+    overflow: hidden;
+}
+.container::before{ 
+    content: "";
+    background:url(img/c.gif) no-repeat center center/cover;
+    position: absolute;
+    width: 100vw;
+    height:110vh;
+    z-index: -2;
+    opacity: 0.5;
+}
+.contactform{
+    padding-top: 144px;
+    padding-left: 34px;
+}
+.contactform form div {
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        /* width: 290px; */
+        border-radius: 12px;
+}
+.contactform form div input{
+    border-radius: 9px;
+    font-size: 1.3em;
+    width: 25vw;
+    padding: 3px;
+}
+.contactform form div label{
+    font-size:1.5em;
+}
+.contactform h1{
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 4vh;
+
+}
+.contactform a{
+    font-size:1.5em;
+    text-decoration:none;
+    color:white;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+.contactform a:hover{
+    color:red;
+}
+#emailHelp{
+    font-size: 1.3em;
+    color: red;
+  
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 20vw;
+    height:2.8vh;
+    margin-left: -9.5vw;
+}
+#form-check label{
+    font-size: 1.5em;
+    margin-left:-9vw;
+}
+
+.footer{
+    margin-top: 8vh;
+}
+.btn{
+    width: 10vw;
+}
