@@ -69,10 +69,10 @@ auth.onAuthStateChanged(user => {
       console.log('user logged in: ', user.email);
       result=reg.exec(user.email);
       if(result){
-        window.location = "http://127.0.0.1:5501/entry.html";
+        window.location = "https://piyush7833.github.io/Biometric_Entry-Exit_IIITU/entry.html";
       }
       else{
-        window.location="http://127.0.0.1:5501/entry2.html"
+        window.location="https://piyush7833.github.io/Biometric_Entry-Exit_IIITU/entry2.html"
       }
     } 
     else {
