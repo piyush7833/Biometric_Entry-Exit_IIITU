@@ -16,7 +16,7 @@ auth.onAuthStateChanged(user => {
     } 
     else {
       console.log('user logged out');
-      window.location = "http://127.0.0.1:5501/index.html";
+      window.location = "https://piyush7833.github.io/Biometric_Entry-Exit_IIITU/index.html";
     }
   })
 
